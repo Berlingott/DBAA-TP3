@@ -36,8 +36,6 @@ db.professeurs.insert(
 // 5 - Il semble qu'il y ait un professeur qui soit en double. Est-ce possible d'enlever la deuxieme occurence ? 
 // Dans les version précédentes de MongoDB, il existait la fonction dropdups pour faire ce genre d'opération, cepandant cette fonction n'existe plus.
 // Nous pourrions donc 
-
-
 //*************************************************************************************************
 // 6 - Comment trouver tous les professeurs d'un département commençant par DI - (par exemple DIM) ?
 // Nous pouvons utilisé les expressions régulières dans les requêtes MongoDB.
@@ -73,8 +71,6 @@ db.professeurs.find(
 // Il est aussi interessant de noté qu'il est possible de faire un index case insensitive : https://www.mongodb.com/docs/manual/core/index-case-insensitive/
 
 //*************************************************************************************************
-
-
 
 // 9 - A quelle date a été ajouté le professeur Richard Khoury dans la base de données ?
 
